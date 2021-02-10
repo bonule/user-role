@@ -13,6 +13,9 @@ Use the following command to run the tests.
 The test results are here ```build/reports/tests/test/index.html``` in your browser
 The test coverage results are here ```build/reports/jacoco/test/html/index.html```
 
+The class ```UserRoles``` provides the function ```getSubOrdinates``` which, when passed a user id, will return
+a list of all their subordinates
+
 ## Assumptions and Design Decisions
 It has been assumed that the provided role ids is a consecutive list of integers starting at 0. The design could
 be enhanced to remove this assumption by providing a mapping between the node numbers used

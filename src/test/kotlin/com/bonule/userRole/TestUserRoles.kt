@@ -10,7 +10,7 @@ import org.junit.jupiter.api.assertThrows
 class TestUserRoles {
 
     @Test
-    fun `validate that getSubOrdinates of role 2 is returning the right values`() {
+    fun `validate that getSubOrdinates of role 3 is returning the right values`() {
         val userRoles = UserRoles(roles(), users())
         val subOrdinates = userRoles.getSubOrdinates(3)
 
